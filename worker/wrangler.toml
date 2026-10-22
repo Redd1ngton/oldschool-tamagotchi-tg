@@ -1,0 +1,10 @@
+name = "oldschool-tamagotchi"
+main = "src/index.ts"
+compatibility_date = "2024-10-22"
+
+[[kv_namespaces]]
+binding = "PETS"
+id = "YOUR_KV_NAMESPACE_ID"   # заміни на свій
+
+[vars]
+# BOT_TOKEN ставиться як Secret через dashboard або wrangler secret put BOT_TOKEN

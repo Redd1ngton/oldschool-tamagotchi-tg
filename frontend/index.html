@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Oldschool Tamagotchi</title>
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <div id="screen">
+      <div id="pet-sprite">🥚</div>
+      <div id="message">Завантаження...</div>
+      <div id="stats">
+        <div>Голод: <span id="hunger">—</span></div>
+        <div>Настрій: <span id="mood">—</span></div>
+        <div>Любов: <span id="affection">—</span></div>
+      </div>
+    </div>
+
+    <div id="buttons">
+      <button data-action="feed">Годувати</button>
+      <button data-action="play">Грати</button>
+      <button data-action="clean">Чистити</button>
+      <button data-action="talk">Поговорити</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
